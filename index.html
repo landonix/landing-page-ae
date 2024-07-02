@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Act + Earn</title>
+        <meta
+            name="description"
+            content="Act + Earn: Action tied to Reinforcement"
+        />
+        <meta name="keywords" content="screen time, screentime" />
+
+        <!-- Open Graph meta tags -->
+        <meta property="og:title" content="Act + Earn Beta Sign-up" />
+        <meta
+            property="og:description"
+            content="Act + Earn: Action tied to Reinforcement"
+        />
+        <meta property="og:image" content="" />
+
+        <link rel="icon" href="favicon.ico" />
+        <link rel="stylesheet" href="./res/bootstrap.min.css" />
+        <link rel="stylesheet" href="./res/styles.css" />
+        <style>
+            .user-signup__intro {
+                margin-bottom: 20px;
+            }
+            .user-signup__form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .user-signup__email {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg-image"></div>
+        <div id="loading" class="loading-state" style="display: none"></div>
+
+        <main>
+            <section
+                class="floating-signup__wrap col-xs-12 col-md-6 col-xs-offset-0 col-md-offset-3 floaty-vertical--middle floaty-horizontal--center floaty-unfloat-at--xs"
+            >
+                <div class="floating-signup rel">
+                    <div class="container-fluid rel">
+                        <div class="user-signup__intro">
+                            <h1 class="text-center">Act + Earn</h1>
+                            <p class="text-center" style="font-size: 14px">
+                                If you're interested in Beta Testing our
+                                application, please provide your email address
+                                below. Thank you!
+                            </p>
+                        </div>
+                        <form
+                            class="form user-signup__form"
+                            name="form"
+                            novalidate
+                            action="https://873a51e2.sibforms.com/serve/MUIFAD77XznoxUZL2_8KqLbqA2k5N3rjs2yaoQY600j5j1wDaECtV1TbFXKRr2vnTwOvzul6QB66Pftmih1xM2zRmI-us1JCKc67Xqy0aSrDT1v8C9-6-4qHbuokj_MnvQk3i37Xa7DRtC-LrDAkDWOg4f5J7lPhN03wpoGWB4ofecFjtODO2URt0PSDP7ncY5heT7wEhV6KLdDf"
+                            method="POST"
+                        >
+                            <input
+                                type="email"
+                                name="EMAIL"
+                                class="form-control form-control__input user-signup__email"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                                placeholder="Email"
+                                aria-required="true"
+                                required
+                            />
+                            <button
+                                type="submit"
+                                class="btn btn-default submit user-signup__submit"
+                            >
+                                SUBMIT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-9M19WJG491"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-9M19WJG491");
+        </script>
+    </body>
+</html>
